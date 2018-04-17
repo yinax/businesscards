@@ -1,0 +1,171 @@
+﻿body {
+    height: 100%;
+    width: 100%;
+}
+
+#pt-main {
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.pt-page {
+    font-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px auto;
+    background: url("../images/bac01.jpg") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    position: fixed;
+
+}
+
+/*page1*/
+.pt-page-1 {
+    z-index: 999;
+}
+
+.title-box {
+    height: 70%;
+    position: fixed;
+    top: 20%;
+    left: 14%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contactway {
+    position: fixed;
+    left: 15%;
+    text-align: center;
+    font-size: 19px;
+}
+
+.contactway-1 {
+    top: 31%;
+}
+
+.contactway-2 {
+    top: 54%;
+}
+
+.confirm {
+    position: fixed;
+    left: 25%;
+    padding-top: 4%;
+}
+
+/*page2*/
+.pt-page-2 {
+    z-index: 888;
+}
+
+#imgBtnUp1 {
+    position: fixed;
+    top: 48%;
+    right: 1%;
+}
+
+#comment {
+    position: fixed;
+}
+
+/*page3*/
+.pt-page-3 {
+    z-index: 777;
+}
+
+#tip {
+    position: fixed;
+    top: 17%;
+    left: 17%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#cardpic {
+    width: 300px;
+    height: 200px;
+    background-color: lavender;
+}
+
+#idzfile {
+    display: none;
+}
+
+#img_recz {
+    width: 60%;
+    float: left;
+}
+
+.da_warp {
+    margin-top: 10%;
+}
+
+#cardUpload {
+    margin-top: 10%;
+    display: block;
+    width: 50%;
+    height: 8%;
+    border: 1px solid #fa6104;
+    background: #fa6104;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 30px;
+    float: left;
+    font-size: 17px;
+    _margin-left: 37px;
+    font-family: Microsoft Yahei;
+    cursor: pointer;
+}
+
+.box3{
+    left: 17%;
+}
+
+.back {
+    width: 3%;
+    position: fixed;
+    left: 2%;
+    top: 1%;
+}
+
+.iconfont {
+    color: #31baa1;
+    font-family: "iconfont";
+    font-size: 32px;
+    /*-webkit-font-smoothing: antialiased; */
+    /*-webkit-text-stroke-width: 0.2px; */
+    -moz-osx-font-smoothing: grayscale;
+    /*z-index: 1000;*/
+}
+
+.icon-page1 {
+    width: 10%;
+    height: 4%;
+    float: left;
+    padding-left: 3%;
+}
+
+.select-text {
+    float: left;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 611266 */
+    src: url('//at.alicdn.com/t/font_611266_mkb8878v6450zfr.eot');
+    src: url('//at.alicdn.com/t/font_611266_mkb8878v6450zfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_611266_mkb8878v6450zfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_611266_mkb8878v6450zfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_611266_mkb8878v6450zfr.svg#iconfont') format('svg');
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 611474 */
+    src: url('//at.alicdn.com/t/font_611474_57l7si5e9356zuxr.eot');
+    src: url('//at.alicdn.com/t/font_611474_57l7si5e9356zuxr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_611474_57l7si5e9356zuxr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_611474_57l7si5e9356zuxr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_611474_57l7si5e9356zuxr.svg#iconfont') format('svg');
+}

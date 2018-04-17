@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" id="a">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="proma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no cache"/>
+    <meta http-equiv="expires" content="0"/>
+    <title>businesscards</title>
+    <meta name="author" content="Chauncey"/>
+    <link rel="stylesheet" href="../static/css/businesscards.css">
+    <link rel="stylesheet" href="../static/css/form.css">
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lrz.all.bundle.js"></script>
+    <script type="text/javascript" src="../static/js/layer.m/layer.m.js"></script>
+    <script type="text/javascript" src="../static/js/businesscards.js"></script>
+    <script type="text/javascript" src="../static/js/verify.js"></script>
+    </meta>
+</head>
+
+<body>
+
+<div class="pt-page pt-page-1">
+    <div class="title-box">
+        <h4>留下您的需求和联系方式</h4>
+    </div>
+    <div class="contactway contactway-1">
+        <h5>方式一：</h5>
+        <a id="confirm1" class="confirm"><span class="select-text">填写您的联系方式</span><img src="../static/images/form.png" class="icon-page1"></a>
+    </div>
+    <div class="contactway contactway-2">
+        <h5>方式二：</h5>
+        <a id="confirm2" class="confirm"><span class="select-text">上传您的名片</span><img src="../static/images/card.png" class="icon-page1"></a>
+    </div>
+</div>
+<div class="pt-page pt-page-2">
+    <div class="user_mesg">
+        <form id="msgform" class="fl" place="right" action="">
+            <div class="quick_liuyan_con">
+                <div class="item">
+                    <span><b class="star">*</b>姓名</span>
+                    <div class="item-right">
+                        <input type="text" class="v-ipt" value="" id="name" placeholder="姓名" nullable="false"
+                               star="false" place="top">
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+                <div class="item">
+                    <span><b class="star">*</b>电话</span>
+                    <div class="item-right">
+                        <input type="text" value="" id="phone" maxlength="11" placeholder="请输入手机号" size="13"
+                               datatype="tel|mobile" star="false"
+                               nullable="false" place="top">
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+                <div class="item">
+                    <span>Email</span>
+                    <div class="item-right">
+                        <input type="text" value="" id="email" datatype="email" star="false" place="top">
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+                <div class="item">
+                    <span>留言</span>
+                    <div class="item-right">
+                        <textarea id="comment" id="Message" class="Message" cols="27" rows="10" star="false"
+                                  place="top" lenlimit="0-100"></textarea>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+                <div class="item">
+                    <input type="submit" class="btn-mesSubmit" id="imgBtnUp1" value="提交留言" verify="true">
+                </div>
+            </div>
+        </form>
+        <div class="form-right fl">
+            <h3>您可以根据下列意向,<span>快捷留言</span></h3>
+            <ul class="quickMessage">
+                <li><a><p>1.项目不错，我想了解一下具体细节！</p></a></li>
+                <li><a><p>2.我有产品，想加入物联网项目！</p></a></li>
+                <li><a><p>3.我想到贵公司考察，请与我联系！</p></a></li>
+                <li><a><p>4.很感兴趣，请给我发些项目资料！</p></a></li>
+            </ul>
+        </div>
+        <a class="back" id="goback1">
+            <!--<img src="../static/images/back.png" class="goback1">-->
+            <i class="iconfont">&#xe669;</i>
+        </a>
+    </div>
+</div>
+<div class="pt-page pt-page-3">
+    <span id="tip">点击上传您的名片：</span>
+    <div class="title-box box3">
+        <div class="da_warp">
+            <img src="../static/images/icon_add.png" id="img_recz">
+            <input type="file" accept="image/*" id="idzfile"/>
+        </div>
+        <input type="submit" class="btn-mesSubmit" id="cardUpload" value="确认提交">
+    </div>
+    <a class="back" id="goback2">
+          <!--<img src="../static/images/back.png" class="goback2">-->
+        <i class="iconfont">&#xe669;</i>
+    </a>
+</div>
+</body>
+
+</html>
